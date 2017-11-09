@@ -5,4 +5,5 @@ add_library(basicLib STATIC basicLib.cpp basicLib.h)
 target_link_libraries(basicLib PRIVATE libPrivate)
 target_link_libraries(basicLib PUBLIC libPublic)
 
-target_include_directories(basicLib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(basicLib PUBLIC $<INSTALL_INTERFACE:include>)
+install(FILES basicLib.h DESTINATION include)
