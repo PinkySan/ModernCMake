@@ -5,6 +5,7 @@ add_library(basicLib STATIC basicLib.cpp basicLib.h)
 target_link_libraries(basicLib PRIVATE libPrivate)
 target_link_libraries(basicLib PUBLIC libPublic)
 
-target_include_directories(basicLib PUBLIC $<INSTALL_INTERFACE:include>)
-install(TARGETS basicLib DESTINATION lib)
+target_include_directories(basicLib INTERFACE $<INSTALL_INTERFACE:include>)
+install(TARGETS basicLib
+    ARCHIVE DESTINATION lib)
 install(FILES basicLib.h DESTINATION include)
