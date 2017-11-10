@@ -6,4 +6,5 @@ target_link_libraries(basicLib PRIVATE libPrivate)
 target_link_libraries(basicLib PUBLIC libPublic)
 
 target_include_directories(basicLib PUBLIC $<INSTALL_INTERFACE:include>)
+install(TARGETS basicLib DESTINATION lib)
 install(FILES basicLib.h DESTINATION include)
