@@ -42,7 +42,7 @@ Das Projekt baut und die relevante Library und ihre zusätzlichen Header werden 
 * alle zugehörigen Libraries müssen mitinstalliert werden
 
 
-### findpackage
+### findpackage (ist momentan auch als master definiert)
 
 * kleiner Hack, da die exportierte Datei der Namenskonvention für ein _find_package()_ entspricht
 * Nicht unbedingt der richtige Weg, aber in diesem simplen Fall zielführend
