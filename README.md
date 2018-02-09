@@ -62,4 +62,4 @@ Das Projekt baut und die relevante Library und ihre zusätzlichen Header werden 
 
  * [Creating Packages on CMake](https://cmake.org/cmake/help/v3.8/manual/cmake-packages.7.html#creating-packages) - Nützliche Information und Dokumentation
  * [Youtube Talk](https://www.youtube.com/watch?v=bsXLMQ6WgIk) - Cpp Now Talk von Daniel Pfeiffer über _Modern CMake_. Krasser Scheiß an manchen Stellen
-
+* [Embracing Modern CMake](https://steveire.wordpress.com/2017/11/05/embracing-modern-cmake/) - Inklusive Slides
